@@ -11,15 +11,19 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".BensaolActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/bensol_album"></activity>
         <activity
             android:name=".BaisaActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/baisa_album" />
         <activity
             android:name=".KondeboiActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/konde_string" />
         <activity
             android:name=".SautisoActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/sauti_album" />
         <activity android:name=".MainActivity">
             <intent-filter>
