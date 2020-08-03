@@ -9,10 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BensaolActivity"></activity>
-        <activity android:name=".BaisaActivity" />
-        <activity android:name=".KondeboiActivity" />
-        <activity android:name=".SautisoActivity" />
+        <activity
+            android:name=".BensaolActivity"
+            android:label="@string/bensol_album"></activity>
+        <activity
+            android:name=".BaisaActivity"
+            android:label="@string/baisa_album" />
+        <activity
+            android:name=".KondeboiActivity"
+            android:label="@string/konde_string" />
+        <activity
+            android:name=".SautisoActivity"
+            android:label="@string/sauti_album" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

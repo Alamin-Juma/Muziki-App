@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the imageView that shows the numbers category
-        ImageView sautisolImage = findViewById(R.id.sautisol);
+        // Find the imageView that shows the Sautisol category
+        Button sautisolbtn = findViewById(R.id.sautisolAlbum);
         // Set a click listener on that View
-        sautisolImage.setOnClickListener(new View.OnClickListener() {
+        sautisolbtn.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the sautisolImage category is clicked on.
             @Override
             public void onClick(View v) {
@@ -27,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the imageView that shows the numbers category
-        ImageView baisaImage = findViewById(R.id.baisa);
+        // Find the imageView that shows the Baisa category
+        Button baisaBtn = findViewById(R.id.baisaAlbum);
         // Set a click listener on that View
-        baisaImage.setOnClickListener(new View.OnClickListener() {
+        baisaBtn.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the baisaImage category is clicked on.
             @Override
             public void onClick(View v) {
@@ -40,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the imageView that shows the numbers category
-        ImageView kondeImage = findViewById(R.id.kondeboi);
+        // Find the Button that shows the kondeboi category
+        Button kondeBtn = findViewById(R.id.kondeboiAlbum);
         // Set a click listener on that View
-        kondeImage.setOnClickListener(new View.OnClickListener() {
+        kondeBtn.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the kondeImage category is clicked on.
             @Override
             public void onClick(View v) {
@@ -53,10 +55,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the imageView that shows the numbers category
-        ImageView bensolImage = findViewById(R.id.bensol);
+        // Find the Button that shows the Bensol category
+        Button bensolBtn = findViewById(R.id.bensolAlbum);
         // Set a click listener on that View
-        bensolImage.setOnClickListener(new View.OnClickListener() {
+        bensolBtn.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the bensolImage category is clicked on.
             @Override
             public void onClick(View v) {
